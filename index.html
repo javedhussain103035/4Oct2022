@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+
+        </style>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        
+
+        <script>
+
+            // camelCase use variable and function/method
+
+            var javedHussain;
+            var wazidHussain;
+            javedHussain = 10;
+            wazidHussain = 20;
+
+            console.log(javedHussain + wazidHussain);
+
+            // 1. Defination
+
+            function myFunctionA(name){     // formal argument / parameter
+                //function body
+                console.log("Hello "+name);
+                  myFunctionB("Hello "+name);
+            }
+
+            // 2. invoke/call     invoking/calling
+
+            myFunctionA('javed');   // actual argument / parameter
+
+            // 1. defination 
+            function myFunctionB(msg){  // formal argument
+                // function body
+                console.log(msg+' how are you ?');
+                myFunctionC(10,20);  // actual argument
+                myFunctionC('10',"20");  // actual argument
+                myFunctionC('Aman ',"Kumar");  // actual argument
+            }
+
+            // invokeing/calling     invoke/call
+            myFunctionB("Aman");   // actual argument/parameter
+            myFunctionA("Aman");   // actual argument/parameter
+
+            //1. funtion Defination
+            function myFunctionC(x,y){
+                // function body
+                console.log(x+y);
+            }
+
+        </script>
+    </body>
+</html>
